@@ -1,0 +1,17 @@
+{
+    "manifest_version":2,
+    "name":"Title Extension",
+    "version":"1.0",
+    "description":"A Chrome Extension for Title",
+    "browser_action":{
+        "default_popup":"popup.html",
+        "default-icon":{
+            "128":"images/txt-file.png"
+        }
+    },
+    "permissions":["activeTab"],
+    "icons":{
+        "128":"images/txt-file.png"
+    }
+
+}
